@@ -2,13 +2,13 @@
 Each project file was added and committed on separate branches. When the last project folder (question 3) was pushed onto its own branch, all the branches were merged
 into the main branch. The following sections describe which folder and output file correspond to the lab questions. The answers for P1 and P2 are also included at the end.
 ## **Q1**
-Create an example application with three tasks that are created in app_main. Two tasks should share a single GPIO pin (you may use the pin connected to the built-in LED for convenience). One task will turn the GPIO pin on, actively wait for 0.5 seconds, and task-delay for 1 second. The other will turn the GPIO pin off, actively wait for 0.5 seconds, and task-delay for 1 second. The GPIO pin should be managed using a semaphore/mutex. The third task will print a status message only, and task-delay for 1 second. Each task should have it's own priority level. Build and run your code.\
+Create an example application with three tasks that are created in app_main. Two tasks should share a single GPIO pin (you may use the pin connected to the built-in LED for convenience). One task will turn the GPIO pin on, actively wait for 0.5 seconds, and task-delay for 1 second. The other will turn the GPIO pin off, actively wait for 0.5 seconds, and task-delay for 1 second. The GPIO pin should be managed using a semaphore/mutex. The third task will print a status message only, and task-delay for 1 second. Each task should have it's own priority level. Build and run your code.
 
 The path **q1/mutexq1** stores the project files for this question. The output file is named **lab2_q1_816022781**
 
 ## **Q2**
 a) Set the example to round-robin scheduling where tasks have the same priority\
-b) Utilise Priority Inheritance to manage the mutex. Vary the assigned priorities for your tasks, and look at the difference in performance. \
+b) Utilise Priority Inheritance to manage the mutex. Vary the assigned priorities for your tasks, and look at the difference in performance.
 Is it what you expected?
 
 The path **q2a/gpio** stores the project files for question 2a. The output file is named **lab2_q2a_816022781**
@@ -16,8 +16,8 @@ The paths **q2b/gpio**, **q2b_132** and **q2b_213** stores the project files for
 The output files are named **lab2_q2b_816022781**, **lab2_q2b_132_816022781** and **lab2_q2b_213_816022781** respectively.
 
 ## **Q3**
-Use the IDLE "hook" function to put the processor to sleep for some time when the system is not going to be "in-use". Does the use of the processor \
-sleep affect the system performance?\
+Use the IDLE "hook" function to put the processor to sleep for some time when the system is not going to be "in-use". Does the use of the processor 
+sleep affect the system performance?
 
 The path **q3/gpio** stores the project files for question 3. The output file is named **lab2_q3_816022781**
 
@@ -27,7 +27,7 @@ For any project that you have already created, identify the following files and 
 - /project/build/include/sdkconfig.h
 - /sdk/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h
 
-Answer:\
+Answer:
 1. The SDK configuration file contains options that enable or disable SDK modules. Using question 2 from lab 1 as the reference, if changes are made to the sdkconfig file, 
 then the application source code may not compile properly or the application may not respond as expected. The FreeRTOS configuration would be unaffected by these changes.
 For example, in the sdkconfig file you can set the baud rate in the line "CONFIG_ESPTOOLPY_BAUD=115200". If this parameter is changed, it can affect communication from between the ESP chip and the PC.
