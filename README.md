@@ -50,6 +50,8 @@ Some of the functions that provide task performance information are as follows:
 
 Some of the #define'd labels for task performance information are as follows:
 - #define configUSE_PREEMPTION 1 - This enables the use of preemptive scheduling in the RTOS scheduler.
+- #define configUSE_TIME_SLICING 1 - This enables time slicing for round robin scheduling.
+- #define configUSE_IDLE_HOOK 1 - This enables the idle hook function to run during the idle task.
 - #define configMAX_PRIORITIES 15 - This defines the number of priorities available to the application tasks. In this case, 15 priority levels are available.
 - #define configUSE_MUTEXES 1 - This allows mutex functionality to be included in the build which is used for the lab.
 - #define configSUPPORT_DYNAMIC_ALLOCATION 1 - This allows the creation of RTOS objects using RAM that is automatically allocated from the FreeRTOS heap. It allows the function
