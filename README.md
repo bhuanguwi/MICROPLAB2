@@ -43,13 +43,20 @@ in the FreeRTOSconfig.h file you can enable preemptive scheduling by defining co
 ## **P2**
 Identify the labels that must be #define'd and the functions that provide task performance information in the ESP SDK.
 
-Some of the functions that provide task performance information are as follows:
+To get task performance information, the vTaskGetRunTimeStats() API function can be used.
+
+In order to use vTaskGetRunTimeStats() , the following #defines are required:\
+- #define configGENERATE_RUN_TIME_STATS 1
+- #defineportCONFIGURE_TIMER_FOR_RUN_TIME_STATS()  vSetupTimerForRunTimeStats() - The vSetupTimerForRunTimeStats() is a user-defined function to be used for determining the run-time stats. Alternatively, the timer can be set up in the sdk config by setting the clock to be used for the timer in "make menuconfig".
+- #define portGET_RUN_TIME_COUNTER_VALUE()  g_esp_os_cpu_clk - This must be defined to get the current time value.
+
+Some of the functions that are useful for tasks are as follows:
 - vTaskStartScheduler - starts the RTOS scheduler.
 - xTaskCreate - Create a new task and add it to the list of tasks that are ready to run.
 - vTaskDelay - Delay a task or block the task for a given number of ticks
 - vTaskPrioritySet - Sets the priority or any task.
 
-Some of the #define'd labels for task performance information are as follows:
+Some of the #define'd labels related to tasks are as follows:
 - #define configUSE_PREEMPTION 1 - This enables the use of preemptive scheduling in the RTOS scheduler.
 - #define configUSE_TIME_SLICING 1 - This enables time slicing for round robin scheduling.
 - #define configUSE_IDLE_HOOK 1 - This enables the idle hook function to run during the idle task.
