@@ -1,4 +1,4 @@
-=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2022.11.04 15:20:30 =~=~=~=~=~=~=~=~=~=~=~=
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2022.11.07 22:08:58 =~=~=~=~=~=~=~=~=~=~=~=
 
  ets Jan  8 2013,rst cause:2, boot mode:(3,6)
 
@@ -23,124 +23,244 @@ csum 0x5d
 [0;32mI (90) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
 [0;32mI (102) boot:  2 factory          factory app      00 00 00010000 000f0000[0m
 [0;32mI (113) boot: End of partition table[0m
-[0;32mI (120) esp_image: segment 0: paddr=0x00010010 vaddr=0x40210010 size=0x15e98 ( 89752) map[0m
-[0;32mI (171) esp_image: segment 1: paddr=0x00025eb0 vaddr=0x40225ea8 size=0x05a3c ( 23100) map[0m
-[0;32mI (181) esp_image: segment 2: paddr=0x0002b8f4 vaddr=0x3ffe8000 size=0x003dc (   988) load[0m
-[0;32mI (182) esp_image: segment 3: paddr=0x0002bcd8 vaddr=0x40100000 size=0x00080 (   128) load[0m
-[0;32mI (196) esp_image: segment 4: paddr=0x0002bd60 vaddr=0x40100080 size=0x04558 ( 17752) load[0m
-[0;32mI (216) boot: Loaded app from partition at offset 0x10000[0m
-[0;32mI (237) gpio: GPIO[2]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
-[0;32mI (241) main: GPIO2 pin set to 0, LED ON[0m
-[0;32mI (742) main: Task 1 Completed[0m
-[0;32mI (743) main: GPIO2 pin set to 1, LED OFF[0m
-[0;32mI (1242) main: Task 2 Completed[0m
-[0;32mI (1244) main: Status Update, Pin State : 1[0m
-[0;32mI (1245) main: Task 3 Completed[0m
-[0;32mI (1247) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1261) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1271) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1281) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1291) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1301) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1311) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1321) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1331) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1341) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1351) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1361) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1371) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1381) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1391) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1401) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1411) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1421) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1431) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1441) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1451) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1461) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1471) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1481) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1491) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1501) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1511) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1521) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1531) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1541) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1551) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1561) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1571) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1581) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1591) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1601) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1611) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1621) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1631) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1641) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1651) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1661) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1671) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1681) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1691) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1701) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1711) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1721) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1731) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (1741) main: GPIO2 pin set to 0, LED ON[0m
+[0;32mI (120) esp_image: segment 0: paddr=0x00010010 vaddr=0x40210010 size=0x1680c ( 92172) map[0m
+[0;32mI (172) esp_image: segment 1: paddr=0x00026824 vaddr=0x4022681c size=0x05ab8 ( 23224) map[0m
+[0;32mI (182) esp_image: segment 2: paddr=0x0002c2e4 vaddr=0x3ffe8000 size=0x003dc (   988) load[0m
+[0;32mI (183) esp_image: segment 3: paddr=0x0002c6c8 vaddr=0x40100000 size=0x00080 (   128) load[0m
+[0;32mI (197) esp_image: segment 4: paddr=0x0002c750 vaddr=0x40100080 size=0x04590 ( 17808) load[0m
+[0;32mI (217) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (238) gpio: GPIO[2]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (240) main: GPIO2 pin set to 0, LED ON[0m
+[0;32mI (741) main: Task 1 Completed[0m
+[0;32mI (742) main: GPIO2 pin set to 1, LED OFF[0m
+[0;32mI (1240) main: Task 2 Completed[0m
+[0;32mI (1241) main: Status Update, Pin State : 1[0m
+[0;32mI (1243) main: Task 3 Completed[0m
+[0;32mI (1244) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1252) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1262) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1272) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1282) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1292) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1302) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1312) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1322) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1332) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1342) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1352) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1362) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1372) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1382) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1392) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1402) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1412) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1422) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1432) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1442) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1452) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1462) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1472) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1482) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1492) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1502) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1512) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1522) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1532) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1542) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1552) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1562) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1572) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1582) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1592) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1602) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1612) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1622) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1632) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1642) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1652) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1662) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1672) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1682) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1692) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1702) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1712) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1722) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1732) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (1742) main: GPIO2 pin set to 0, LED ON[0m
 [0;32mI (2240) main: Task 1 Completed[0m
 [0;32mI (2241) main: GPIO2 pin set to 1, LED OFF[0m
-[0;32mI (2740) main: Task 2 Completed[0m
-[0;32mI (2741) main: Status Update, Pin State : 1[0m
-[0;32mI (2743) main: Task 3 Completed[0m
-[0;32mI (2745) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (2761) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (2771) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (2781) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (2791) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (2801) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (2811) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (2821) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (2831) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (2841) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (2851) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (2861) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (2871) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (2881) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (2891) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (2901) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (2911) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (2921) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (2931) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (2941) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (2951) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (2961) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (2971) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (2981) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (2991) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (3001) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (3011) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (3021) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (3031) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (3041) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (3051) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (3061) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (3071) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (3081) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (3091) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (3101) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (3111) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (3121) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (3131) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (3141) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (3151) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (3161) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (3171) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (3181) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (3191) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (3201) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (3211) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (3221) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (3231) main: System is IDLE, In Low Power Mode[0m
-[0;32mI (3241) main: GPIO2 pin set to 0, LED ON[0m
-[0;32mI (3740) main: Task 1 Completed[0m
-[0;32mI (3741) main: GPIO2 pin set to 1, LED OFF[0m
-
+[0;32mI (2739) main: Task 2 Completed[0m
+[0;32mI (2740) main: Status Update, Pin State : 1[0m
+[0;32mI (2741) main: Task 3 Completed[0m
+[0;32mI (2742) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (2752) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (2762) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (2772) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (2782) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (2792) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (2802) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (2812) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (2822) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (2832) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (2842) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (2852) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (2862) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (2872) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (2882) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (2892) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (2902) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (2912) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (2922) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (2932) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (2942) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (2952) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (2962) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (2972) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (2982) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (2992) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (3002) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (3012) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (3022) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (3032) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (3042) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (3052) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (3062) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (3072) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (3082) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (3092) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (3102) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (3112) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (3122) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (3132) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (3142) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (3152) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (3162) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (3172) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (3182) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (3192) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (3202) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (3212) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (3222) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (3232) main: GPIO2 pin set to 0, LED ON[0m
+[0;32mI (3730) main: Task 1 Completed[0m
+[0;32mI (3731) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (3732) main: GPIO2 pin set to 1, LED OFF[0m
+[0;32mI (4232) main: Task 2 Completed[0m
+[0;32mI (4233) main: Status Update, Pin State : 1[0m
+[0;32mI (4234) main: Task 3 Completed[0m
+[0;32mI (4242) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4252) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4262) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4272) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4282) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4292) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4302) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4312) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4322) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4332) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4342) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4352) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4362) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4372) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4382) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4392) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4402) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4412) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4422) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4432) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4442) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4452) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4462) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4472) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4482) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4492) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4502) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4512) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4522) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4532) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4542) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4552) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4562) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4572) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4582) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4592) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4602) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4612) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4622) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4632) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4642) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4652) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4662) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4672) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4682) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4692) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4702) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4712) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (4722) main: GPIO2 pin set to 0, LED ON[0m
+[0;32mI (5220) main: Task 1 Completed[0m
+[0;32mI (5221) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (5232) main: GPIO2 pin set to 1, LED OFF[0m
+[0;32mI (5730) main: Task 2 Completed[0m
+[0;32mI (5731) main: Status Update, Pin State : 1[0m
+[0;32mI (5732) main: Task 3 Completed[0m
+[0;32mI (5733) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (5742) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (5752) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (5762) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (5772) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (5782) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (5792) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (5802) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (5812) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (5822) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (5832) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (5842) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (5852) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (5862) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (5872) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (5882) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (5892) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (5902) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (5912) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (5922) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (5932) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (5942) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (5952) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (5962) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (5972) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (5982) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (5992) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (6002) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (6012) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (6022) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (6032) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (6042) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (6052) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (6062) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (6072) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (6082) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (6092) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (6102) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (6112) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (6122) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (6132) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (6142) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (6152) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (6162) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (6172) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (6182) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (6192) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (6202) main: System is IDLE, In Low Power Mode[0m
+[0;32mI (6212) main: GPIO2 pin set to 0, LED ON[0m
+
+Task		Abs		%
+-------------------------------------------------------------
+Task Stats     	43		<1%
+LED On         	2019585		32%
+IDLE           	1966279		31%
+Status         	8343		<1%
+LED OFF        	1998671		32%
+Tmr Svc        	148079		2%
+[0;32mI (6728) main: Task 1 Completed[0m
+[0;32mI (6729) main: GPIO2 pin set to 1, LED OFF[0m
+ 
