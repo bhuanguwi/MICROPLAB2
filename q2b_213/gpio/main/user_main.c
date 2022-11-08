@@ -33,6 +33,7 @@ static const char* TAG = "main";
 #define TASK1_PRIORITY		2
 #define TASK2_PRIORITY		1
 #define TASK3_PRIORITY		3
+#define PRINTSTATS_PRIORITY	4  // Highest priority so stats will print when ready
 //HALF_SECOND_DELAY was calculated to be 2650000
 #define HALF_SECOND_DELAY	2650000
 
@@ -41,6 +42,43 @@ unsigned int delay_value;
 static void Task1(void * pvParameters);
 static void Task2(void * pvParameters);
 static void Task3(void * pvParameters);
+static void PrintStats( void *pvParameters );
+
+// Code to print task performance information from Mastering the FreeRTOS Real Time Kernel
+// A Hands on Tutorial Guide on page 348
+static void PrintStats( void *pvParameters )
+{
+TickType_t xLastExecutionTime;
+/* The buffer used to hold the formatted run-time statistics text needs to be quite
+large. It is therefore declared static to ensure it is not allocated on the task
+stack. This makes this function non re-entrant. */
+static char cStringBuffer[ 512 ];
+/* The task will run every 5 seconds. */
+const TickType_t xBlockPeriod = pdMS_TO_TICKS( 5000 );
+ /* Initialize xLastExecutionTime to the current time. This is the only time this
+ variable needs to be written to explicitly. Afterwards it is updated internally
+ within the vTaskDelayUntil() API function. */
+ xLastExecutionTime = xTaskGetTickCount();
+ /* As per most tasks, this task is implemented in an infinite loop. */
+ for( ;; )
+ {
+ /* Wait until it is time to run this task again. */
+ vTaskDelayUntil( &xLastExecutionTime, xBlockPeriod );
+ /* Generate a text table from the run-time stats. This must fit into the
+ cStringBuffer array. */
+ vTaskGetRunTimeStats( cStringBuffer );
+
+ /* Print out column headings for the run-time stats table. */
+ printf( "\nTask\t\tAbs\t\t%%\n" );
+ printf( "-------------------------------------------------------------\n" );
+
+ /* Print out the run-time stats themselves. The table of data contains
+ multiple lines, so the vPrintMultipleLines() function is called instead of
+ calling printf() directly. vPrintMultipleLines() simply calls printf() on
+ each line individually, to ensure the line buffering works as expected. */
+ printf("%.*s",512,cStringBuffer);
+ }
+}
 
 /* A task that uses the semaphore. */
 static void Task1(void * pvParameters)
@@ -171,13 +209,14 @@ void app_main(void)
 
 
   delay_value = 0;
-  TaskHandle_t xTask1, xTask2, xTask3;
+  TaskHandle_t xTask1, xTask2, xTask3, xPrintStats;
   xSemaphore = xSemaphoreCreateMutex();
   
 
 xTaskCreate(Task1, "LED On", 4096, NULL, TASK1_PRIORITY, &xTask1);
 xTaskCreate(Task2, "LED OFF", 4096, NULL, TASK2_PRIORITY, &xTask2);
 xTaskCreate(Task3, "Status", 4096, NULL, TASK3_PRIORITY, &xTask3);
+xTaskCreate(PrintStats, "Task Stats", 4096, NULL,PRINTSTATS_PRIORITY, &xPrintStats );
 
 //vTaskStartScheduler();
 //ESP_LOGI(TAG, "Task Scheduler initialized");
