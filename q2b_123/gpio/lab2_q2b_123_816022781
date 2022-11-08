@@ -1,0 +1,177 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2022.11.07 22:21:24 =~=~=~=~=~=~=~=~=~=~=~=
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x40100000, len 7032, room 16 
+tail 8
+chksum 0x94
+load 0x3ffe8408, len 24, room 0 
+tail 8
+chksum 0x2d
+load 0x3ffe8420, len 3328, room 0 
+tail 0
+chksum 0x5d
+csum 0x5d
+[0;32mI (42) boot: ESP-IDF v3.4-49-g0f200b46-dirty 2nd stage bootloader[0m
+[0;32mI (43) boot: compile time 17:22:17[0m
+[0;32mI (43) boot: SPI Speed      : 40MHz[0m
+[0;32mI (50) boot: SPI Mode       : DIO[0m
+[0;32mI (56) boot: SPI Flash Size : 1MB[0m
+[0;32mI (62) boot: Partition Table:[0m
+[0;32mI (68) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (79) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (90) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (102) boot:  2 factory          factory app      00 00 00010000 000f0000[0m
+[0;32mI (113) boot: End of partition table[0m
+[0;32mI (120) esp_image: segment 0: paddr=0x00010010 vaddr=0x40210010 size=0x167f4 ( 92148) map[0m
+[0;32mI (172) esp_image: segment 1: paddr=0x0002680c vaddr=0x40226804 size=0x05a94 ( 23188) map[0m
+[0;32mI (182) esp_image: segment 2: paddr=0x0002c2a8 vaddr=0x3ffe8000 size=0x003dc (   988) load[0m
+[0;32mI (183) esp_image: segment 3: paddr=0x0002c68c vaddr=0x40100000 size=0x00080 (   128) load[0m
+[0;32mI (197) esp_image: segment 4: paddr=0x0002c714 vaddr=0x40100080 size=0x04590 ( 17808) load[0m
+[0;32mI (217) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (238) gpio: GPIO[2]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (240) main: GPIO2 pin set to 1, LED OFF[0m
+[0;32mI (741) main: Task 2 Completed[0m
+[0;32mI (742) main: GPIO2 pin set to 0, LED ON[0m
+[0;32mI (762) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (772) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (782) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (792) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (802) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (812) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (822) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (832) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (842) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (852) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (862) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (872) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (882) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (892) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (902) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (912) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (922) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (932) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (942) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (952) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (962) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (972) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (982) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (992) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1002) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1012) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1022) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1032) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1042) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1052) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1062) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1072) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1082) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1092) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1102) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1112) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1122) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1132) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1142) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1152) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1162) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1172) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1182) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1192) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1202) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1212) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1222) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1232) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1242) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1252) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1262) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1272) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1282) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1292) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1302) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1311) main: Task 1 Completed[0m
+[0;32mI (1312) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (1314) main: Status Update, Pin State : 0[0m
+[0;32mI (1317) main: Task 3 Completed[0m
+[0;32mI (1742) main: GPIO2 pin set to 1, LED OFF[0m
+[0;32mI (2240) main: Task 2 Completed[0m
+[0;32mI (2322) main: Status Update, Pin State : 1[0m
+[0;32mI (2323) main: Task 3 Completed[0m
+[0;32mI (2324) main: GPIO2 pin set to 0, LED ON[0m
+[0;32mI (2823) main: Task 1 Completed[0m
+[0;32mI (3232) main: GPIO2 pin set to 1, LED OFF[0m
+[0;32mI (3332) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3342) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3352) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3362) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3372) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3382) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3392) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3402) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3412) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3422) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3432) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3442) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3452) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3462) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3472) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3482) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3492) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3502) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3512) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3522) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3532) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3542) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3552) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3562) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3572) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3582) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3592) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3602) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3612) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3622) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3632) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3642) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3652) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3662) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3672) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3682) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3692) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3702) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3712) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3722) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3732) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3742) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3752) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3762) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3772) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3782) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (3789) main: Task 2 Completed[0m
+[0;32mI (3790) main: Status Update, Pin State : 1[0m
+[0;32mI (3791) main: Task 3 Completed[0m
+[0;32mI (3822) main: GPIO2 pin set to 0, LED ON[0m
+[0;32mI (4320) main: Task 1 Completed[0m
+[0;32mI (4792) main: Status Update, Pin State : 0[0m
+[0;32mI (4793) main: Task 3 Completed[0m
+[0;32mI (4794) main: GPIO2 pin set to 1, LED OFF[0m
+[0;32mI (5293) main: Task 2 Completed[0m
+[0;32mI (5312) main: GPIO2 pin set to 0, LED ON[0m
+[0;32mI (5802) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (5811) main: Task 1 Completed[0m
+[0;32mI (5812) main: Task 3 : Semaphore was not obtained[0m
+[0;32mI (5813) main: Status Update, Pin State : 0[0m
+[0;32mI (5817) main: Task 3 Completed[0m
+[0;32mI (6292) main: GPIO2 pin set to 1, LED OFF[0m
+
+Task		Abs		%
+-------------------------------------------------------------
+Task Stats     	42		<1%
+LED OFF        	2031490		32%
+IDLE           	1892897		30%
+LED On         	1999114		32%
+Status         	159414		2%
+Tmr Svc        	148109		2%
+[0;32mI (6809) main: Task 2 Completed[0m
+[0;32mI (6822) main: Status Update, Pin State : 1[0m
+[0;32mI (6823) main: Task 3 Completed[0m
+[0;32mI (6824) main: GPIO2 pin set to 0, LED ON[0m
+ 
